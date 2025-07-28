@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://idalab.ufsc.br'>IDA Lab</a> at <a href='=https://ufsc.br'>UFSC</a>
 
 profile:
   align: right

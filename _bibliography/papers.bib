@@ -8,13 +8,27 @@
   year = {2025},
   issn = {0029-8018},
   doi = {https://doi.org/10.1016/j.oceaneng.2025.122186},
-  url = {https://www.sciencedirect.com/science/article/pii/S0029801825018700},
+  html = {{https://www.sciencedirect.com/science/article/pii/S0029801825018700}},
   author = {Arthur M.P. Gabardo and Pablo A. Jaskowiak and Thiago P. Tancredi},
   keywords = {Mooring optimization, Offshore systems design, NSGA-II, High-Performance computing, Distributed processing},
   abstract = {Mooring systems ensure the structural integrity of Floating Production Units, especially in deep waters. These structures face environmental conditions that cause displacements along the waterline, resulting in significant stresses on risers and other subsystems. Minimizing such displacements and loads is crucial for safety. The design of mooring systems is complex, requiring a thorough analysis of project characteristics and environmental factors to fulfill safety requirements. Even though advances in computational tools have enhanced offshore system design by enabling a holistic assessment of critical parameters, optimization remains computationally intensive and often constrained by available resources. In this context, this work proposes the adoption of High-Performance Computing in offshore system design, allowing distributed optimization processes and accelerating the evaluation of solutions. Our procedure was successfully validated in a real-world case study involving the repositioning of an operational Floating Production Unit through a distributed implementation of the NSGA-II optimization algorithm, resulting in the reconfiguration of its mooring system. A viable repositioning was achieved with 32.94 m of displacement in the desired direction (10.98 % of water depth) and a reduction of 7 % in maximum line tension in the mooring system. Altogether, execution time was reduced by tenfold relative to the serial implementation of NSGA-II.},
   bibtex_show = {true},
   preview = {oe2025.jpg},
   selected = {true}
+}
+
+@article{202505.1260,
+	doi = {10.20944/preprints202505.1260.v1},
+	url = {https://doi.org/10.20944/preprints202505.1260.v1},
+	year = 2025,
+	month = {May},
+	publisher = {Preprints},
+	author = {Helena Paula Nierwinski and Arthur Miguel Pereira Gabardo and Ricardo José Pfitscher and Rafael Piton and Ezequias Oliveira and Marieli Biondo},
+	title = {Machine Learning-Based Approach for CPTu Data Processing and Stratigraphic Analysis},
+	journal = {Preprints},
+  abstract = {Cone Penetration Tests with pore pressure measurements (CPTu) are widely used in geotechnical site investigations due to their high-resolution profiling capabilities. However, traditional interpretation methods—such as the Soil Behavior Type Index (Ic)—often fail to capture the internal heterogeneity typical of mining tailings deposits. This study presents a machine learning-based framework to enhance stratigraphic interpretation from CPTu data. Four unsupervised clustering algorithms—k-means, DBSCAN, MeanShift, and Affinity Propagation—were evaluated using a dataset of 12 CPTu soundings collected over a 19-year period from an iron tailings dam in Brazil. Clustering performance was assessed through visual inspection, stratigraphic consistency, and comparison with Ic-based profiles. k-means and MeanShift produced the most consistent stratigraphic segmentation, clearly delineating depositional layers, consolidated zones, and transitions linked to dam raising. In contrast, DBSCAN and Affinity Propagation either over-fragmented or failed to identify meaningful structures. The results demonstrate that clustering methods can reveal behavioral trends not detected by Ic alone, offering a complementary perspective for understanding depositional and mechanical evolution in tailings. Integrating clustering outputs with conventional geotechnical indices improves the interpretability of CPTu profiles, supporting more informed geomechanical modeling, dam monitoring, and design. The approach provides a replicable methodology for data-rich environments with high spatial and temporal variability.},
+  html = {https://www.preprints.org/manuscript/202505.1260/v1},
+  preview = {preprints2025.png}
 }
 
 @inproceedings{Gabardo2025highway,
@@ -24,13 +38,15 @@
   year = {2025},
   bibtex_show = {true},
   preview = {bracis2025.png},
-  selected = {true}
+  selected = {true},
+  abstract = {Brazil faces significant traffic safety challenges with its vast territory and one of the world's largest road networks. Road traffic accidents, particularly on federal highways, remain a leading cause of death in the country, with serious economic and social consequences. This work presents a case study of three machine learning methods — Random Forest (RF), k-Nearest Neighbors (kNN), and Multilayer Perceptron (MLP) — for classifying the severity of traffic accidents in the Brazilian southern region. Using an open dataset from the Brazilian Federal Highway Police (PRF) covering the years 2021 to 2024, extensive preprocessing was carried out, including categorical variable encoding, feature selection, and the application of the SMOTE technique to address class imbalance.~Model performance was assessed through statistical metrics such as specificity, $F1$-score, and AUC-ROC. The results show that RF and kNN (with SMOTE) achieved the best performance in predicting fatal accidents, both with AUC-ROC of $0.99$. In addition to an in-depth model evaluation, this study presents a post-hoc analysis of feature importance and contributions through Shapley Additive Explanations (SHAP) for the best performing model, in order to support knowledge discovery and highlight the most influential factors associated with fatalities.}
 }
 
 @inproceedings{Gabardo2024synapse,
   author = {Gabardo, Arthur Miguel Pereira and Tancredi, Thiago Pontin and Jaskowiak, Pablo Andretta},
   title = {Synapse meets Slurm: Proposta de um Middleware para Paralelização de Algoritmos de Otimização Populacionais},
   pages = {1-4},
+  abstract = {A Otimização Multidisciplinar possui um papel central na integração de áreas diversas em projetos de engenharia. Recursos computacionais podem, porém, ser um fator limitante em processos de otimização. Este artigo apresenta um middleware desenvolvido para integrar o software Synapse a clusters gerenciados pelo Slurm Workload Manager. O middleware facilita a execução de algoritmos de otimização populacionais (e.g., algoritmos genéticos) de maneira distribuída, favorecendo processos de otimização. Testes em um cluster heterogêneo permitiram validar a solução. Em experimentos preliminares, a solução desenvolvida apresentou speedups de até dez vezes em relação ao uso de workstations, abordagem até então suportada pelo Synapse.},
   booktitle = {XXIV Escola Regional de Alto Desempenho da Região Sul (ERAD-RS)},
   publisher = {Sociedade Brasileira de Computação (SBC)},
   address = {Florianópolis, SC, Brazil},
@@ -38,15 +54,16 @@
   month = apr,
   year = {2024},
   doi = {https://doi.org/10.5753/eradrs.2024.238656},
+  html = {https://sol.sbc.org.br/index.php/eradrs/article/view/27988},
   bibtex_show = {true},
   preview = {erad2024.png},
   selected = {true}
 }
 
 @inproceedings{Maier2024desenvolvimento,
-  author = {Gabardo, Arthur Miguel Pereira and Tancredi, Thiago Pontin and Jaskowiak, Pablo Andretta},
+  author = {Maier, Guilherme Rodrigo and Lucheti, Lucca Roncador and Gabardo, Arthur Miguel Pereira and Tancredi, Thiago Pontin},
   title = {Desenvolvimento de Ferramenta para Automação de Simulações CFD de Cascos de Submarinos},
-  pages = {1-4},
+  abstract = {Significativos avanços nos recursos computacionais permitiram o uso de técnicas sofisticadas como o CFD em conjunto com métodos de otimização ainda nas fases iniciais de projeto. Porém, na engenharia naval, as técnicas de otimização costumam se limitar a modelos paramétricos baseados em métodos empíricos. Além disso, o alto custo das ferramentas, a dificuldade de modelagem e as diversas iterações necessárias, tornam o uso do CFD, por vezes, inviável. Este artigo apresenta uma metodologia de projeto que integra a modelagem do casco de um submarino em um modelo de otimização que utiliza CFD para determinar o arrasto da embarcação. A geometria do casco é descrita por funções matemáticas que caracterizam as principais curvas, sendo que o modelo CFD é construído utilizando a biblioteca Open-Source OpenFOAM. A discretização do domínio, os parâmetros de entrada da simulação e da geração de malha são ajustados iterativamente até que os critérios de qualidade e o valor de y+ estejam dentro dos limites estabelecidos. A simulação do escoamento ocorre em um domínio totalmente submerso, e utiliza o solver simpleFoam acoplado ao modelo de turbulência k-omega SST.  Um código em Python é capaz de automatizar todo o processo de parametrização e análise da simulação, obtendo o arrasto do casco tendo como entrada apenas os parâmetros: comprimento total, diâmetro, comprimento do corpo médio paralelo e os graus de curvatura da popa e da proa. Em comparação com os resultados experimentais do modelo de casco 4165 da série 58, a simulação desenvolvida apresentou erros inferiores a 6.9% para todos os números de Reynolds analisados, bem como demonstrou resultados consistentes com as variações paramétricas impostas. Como exemplo de aplicação, é apresentado um estudo paramétrico, cuja análise de qualidade de malha foi conduzida manualmente, não sendo encontrados problemas significativos na abordagem automatizada.},
   booktitle = {Anais do 30º Congresso Internacional de Transporte Aquaviário, Construção Naval e Offshore},
   publisher = {SOBENA},
   address = {Rio de Janeiro, RJ, Brazil},
@@ -55,6 +72,7 @@
   year = {2024},
   bibtex_show = {true},
   doi = {https://doi.org/10.17648/sobena-2024-195576},
+  html = {https://proceedings.science/sobena-congresso/sobena-2024/trabalhos/desenvolvimento-de-ferramenta-para-automacao-de-simulacoes-cfd-de-cascos-de-subm?lang=pt-br},
   preview = {sobena2024.png}
 }
 
@@ -64,8 +82,9 @@
   school    = {Universidade Federal de Santa Catarina},
   year      = {2024},
   address   = {Joinville, SC},
+  abstract = {The increasing integration of computational models, simulations, and optimizations has led to significant advancements in scientific research and engineering projects. However, the complexity and computational cost of these models, coupled with large datasets, have driven the search for High-Performance Computing (HPC) infrastructures, essential for executing these tasks. Despite its potential to transform engineering practices, the implementation of HPC infrastructures faces challenges, such as high acquisition costs and the technical specialization required for the maintenance and development of these systems. In this context, the use of commodity clusters, composed of low-cost hardware that is readily available on the market, emerges as a strategic alternative to make these technologies more accessible. This paper aims to report the process of deploying the Aqua Cluster, using pre-existing laboratory infrastructure with heterogeneous resources, and its integration into the Synapse software, focused on optimizing engineering systems, through the development of a middleware that enables the distributed execution of analyses. The methodology included configuring the hardware and software stack, followed by performance testing using benchmarks, as well as the practical application of the cluster in computational experiments using the proposed middleware. The results obtained allowed for the evaluation of performance, scalability, and viability aspects of the solution, providing support to validate its applicability in engineering projects, as well as enhancing the computational capabilities of the laboratory with the incorporation of the deployed HPC infrastructure.},
   type      = {Trabalho de Conclusão de Curso (Engenharia Aeroespacial)},
-  url       = {https://repositorio.ufsc.br/handle/123456789/262172},
+  html       = {https://repositorio.ufsc.br/handle/123456789/262172},
   bibtex_show = {true},
 }
 
@@ -77,7 +96,9 @@
   publisher = {Associação Brasileira De Pesquisa E Desenvolvimento Em Petróleo E Gás},
   month = oct,
   year = {2024},
-  url = {https://pdpetro.com.br/anais/?idpdpetro=12},
+  abstract = {Mooring systems play a fundamental role in restraining displacement, preserving structural integrity, and ensuring the safety of Floating Production Units (FPUs) and their subsystems (e.g., risers). However, the design of these systems is marked by a notable degree of complexity, owing to the interaction between various project characteristics, environmental factors, and operational requirements of the floating unit. Consequently, a comprehensive analysis of multiple design configurations is needed to ascertain their feasibility. Such thorough analysis results in a lengthy and meticulous process to determine its suitability and effectiveness in meeting the specific criteria of a mooring system, where less of 0.1% of solutions satisfy all design’s requirements. In this context, computational tools and techniques perform a crucial role, being widely employed in the design and verification of offshore systems. Through sophisticated simulations of nonlinear dynamic systems, finite element methods (FEM), and computational fluid dynamics (CFD) analyses, engineers can evaluate the performance and viability of different mooring system configurations. This article presents the Synapse Multidisciplinary Engineering software, that leverages Multidisciplinary Optimization (MDO) methods to simplify and automate the design process of these systems, meeting project constraints and requirements. To mitigate the impacts associated with the high computational cost of simulations, analyses, and optimizations of the systems, the Synapse software employs machine learning algorithms, surrogate models, and the use of high-performance computing (HPC) cluster infrastructures. Following the latest trends in the field, new paradigms of human-machine interfaces (HMI), such as augmented and virtual reality (AR/VR), are being explored. These immersive technologies hold the promise of revolutionizing the design and visualization of mooring systems, offering engineers new ways to explore and interact with complex design spaces. Against this backdrop, this review highlights these trends in computational tools for the integrated design of mooring systems, emphasizing the importance of the continuous evolution and development of these technologies.},
+  html = {https://pdpetro.com.br/anais/?idpdpetro=12},
+  doi = {https://doi.org/10.71190/2024-12-1224050},
   preview = {pdpetro2024.png},
   bibtex_show = {true},
 }
